@@ -1,0 +1,100 @@
+/* App.css */
+:root {
+    --background-color-light: #ffffff;
+    --text-color-light: #333333;
+    --button-background-light: #007bff;
+    --button-text-light: #ffffff;
+
+    --background-color-dark: #222222;
+    --text-color-dark: #ffffff;
+    --button-background-dark: #333333;
+    --button-text-dark: #ffffff;
+
+    --background-color-blue: #d1ecf1;
+    --text-color-blue: #00008b;
+    --button-background-blue: #4682b4;
+    --button-text-blue: #ffffff;
+
+    --background-color-green: #d4edda;
+    --text-color-green: #155724;
+    --button-background-green: #28a745;
+    --button-text-green: #ffffff;
+
+    --background-color-purple: #e9ecef;
+    --text-color-purple: #6f42c1;
+    --button-background-purple: #800080;
+    --button-text-purple: #ffffff;
+}
+
+.App {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-theme {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
+
+.blue-theme {
+    background-color: var(--background-color-blue);
+    color: var(--text-color-blue);
+}
+
+.green-theme {
+    background-color: var(--background-color-green);
+    color: var(--text-color-green);
+}
+
+.purple-theme {
+    background-color: var(--background-color-purple);
+    color: var(--text-color-purple);
+}
+
+/* Button styles */
+button {
+    background-color: var(--button-background-light);
+    color: var(--button-text-light);
+}
+
+.dark-theme button {
+    background-color: var(--button-background-dark);
+    color: var(--button-text-dark);
+}
+
+.blue-theme button {
+    background-color: var(--button-background-blue);
+    color: var(--button-text-blue);
+}
+
+.green-theme button {
+    background-color: var(--button-background-green);
+    color: var(--button-text-green);
+}
+
+.purple-theme button {
+    background-color: var(--button-background-purple);
+    color: var(--button-text-purple);
+}
+
+/* Card text styles */
+.card-text {
+    color: var(--text-color-light);
+}
+
+.dark-theme .card-text {
+    color: var(--text-color-dark);
+}
+
+.blue-theme .card-text {
+    color: var(--text-color-blue);
+}
+
+.green-theme .card-text {
+    color: var(--text-color-green);
+}
+
+.purple-theme .card-text {
+    color: var(--text-color-purple);
+}
